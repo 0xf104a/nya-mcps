@@ -16,4 +16,4 @@ COPY configs/routes.conf /etc/MeowMeow/routes.conf
 
 ENV PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD=1
 ENV CHROMIUM_PATH=/usr/bin/chromium-browser
-RUN npm install -g @playwright/mcp@latest
+RUN npm install -g @playwright/mcp@v0.0.69
