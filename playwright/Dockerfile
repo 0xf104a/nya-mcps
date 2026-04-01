@@ -1,4 +1,4 @@
-FROM ghcr.io/0xf104a/meowmeow:2.0-alpha5
+FROM ghcr.io/0xf104a/meowmeow:2.0-alpha6
 
 RUN apk add --no-cache \
     chromium-headless-shell \
